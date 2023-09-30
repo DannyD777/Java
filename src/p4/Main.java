@@ -1,4 +1,4 @@
-package p1;
+package p4;
 
 import java.util.Scanner;
 
@@ -43,15 +43,18 @@ public class Main {
 
 
 
-    }
-    static void calculator(){
-        System.out.println("Calculator");
-    }
-    static void input1(){
-        System.out.println("Введите число");
-    }
-    static void action(){
-        System.out.println("Введите действие (+, -, *, /, %)");
+        }
+        static void calculator(){
+            System.out.println("Calculator");
+        }
+        static void input1(){
+            System.out.println("Введите число");
+        }
+        static void action(){
+            System.out.println("Введите действие (+, -, *, /, %)");
+        }
+
+
+
     }
 
-}
