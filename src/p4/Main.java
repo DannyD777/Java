@@ -8,27 +8,27 @@ public class Main {
         Scanner name = new Scanner(System.in);
         while (true){
             input1();
-            double a = name.nextDouble();
+            int a = name.nextInt();
             action();
             char operation = name.next().charAt(0);
             input1();
-            double b = name.nextDouble();
+            int b = name.nextInt();
 
             switch (operation){
                 case '+':
-                    System.out.printf("Решение a=%f + b=%f: %f \n",a,b, a+b);
+                    System.out.printf("Решение a=%d + b=%d: %d \n",a,b, a+b);
                     break;
                 case '-':
-                    System.out.printf("Решение a=%f - b=%f: %f \n",a,b, a-b);
+                    System.out.printf("Решение a=%d - b=%d: %d \n",a,b, a-b);
                     break;
                 case '*':
-                    System.out.printf("Решение a=%f * b=%f: %f \n",a,b, a*b);
+                    System.out.printf("Решение a=%d * b=%d: %d \n",a,b, a*b);
                     break;
                 case '/':
-                    System.out.printf("Решение a=%f / b=%f: %f \n",a,b, a/b);
+                    System.out.printf("Решение a=%f / b=%f: %f \n",a,b,(double) a/b);
                     break;
                 case '%':
-                    System.out.printf("Решение a=%f and b=%f: %f \n",a,b, a%b);
+                    System.out.printf("Решение a=%f and b=%f: %f \n",a,b,(double) a%b);
                     break;
                 default:
                     System.out.println("Error");
