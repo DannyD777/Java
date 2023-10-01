@@ -39,15 +39,12 @@ public class Phone {
         System.out.println("-----------------------------------");
     }
 
-    static void receiveCall(){
-
-        System.out.println("Звонит: \n ");
+    public void receiveCall(String max){
+        System.out.println("Звонит: \n " + max);
         System.out.println("-----------------------------------");
 
 
     }
-
-
     public int getNumber() {
         System.out.println("Number: " + number);
         System.out.println("-----------------------------------");

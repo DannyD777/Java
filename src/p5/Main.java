@@ -12,6 +12,11 @@ public class Main {
         apple.printInfo();
         apple.getNumber();
         apple.printInfo();
+        apple.receiveCall("max");
+
+
+
+
 
 
 
@@ -20,6 +25,8 @@ public class Main {
 
         Phone apple2  = new Phone("ApPro",355678898,189);
         apple2.printInfo();
+
+
 
 
 
