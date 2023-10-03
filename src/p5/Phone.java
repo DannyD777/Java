@@ -1,15 +1,12 @@
 package p5;
 
 
-public class Phone {
-
+public abstract class Phone {
 
 
     String model;
     int number;
     int weight;
-
-
 
 
     {
@@ -19,17 +16,16 @@ public class Phone {
 
     public Phone() {
 
-    this("none", 0,0);
+        this("none", 0, 0);
         System.out.println("-----------------------------------");
 
     }
 
 
-
     public Phone(String model, int number, int weight) {
-         this.model = model;
-         this.number = number;
-         this.weight = weight;
+        this.model = model;
+        this.number = number;
+        this.weight = weight;
         System.out.println("-----------------------------------");
     }
 
@@ -39,22 +35,32 @@ public class Phone {
         System.out.println("-----------------------------------");
     }
 
-    public void receiveCall(String max){
-        System.out.println("Звонит: \n " + max);
+    public void receiveCall(String Max) {
+        System.out.println("Звонит: " + Max);
         System.out.println("-----------------------------------");
 
 
     }
+
     public int getNumber() {
         System.out.println("Number: " + number);
         System.out.println("-----------------------------------");
         return number;
 
     }
-    void printInfo(){
-        System.out.printf(" Model:  %s \n Number: %d \n Weight: %d \n", model, number, weight );
+
+    void printInfo() {
+        System.out.printf(" Model:  %s \n Number: %d \n Weight: %d \n", model, number, weight);
         System.out.println("-----------------------------------");
+
+
     }
+
+    public abstract void info();
+
+
+
 }
+
 
 
