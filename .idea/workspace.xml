@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaef00b8-c50b-4c41-b480-2eb8041ce71b" name="Changes" comment="Java">
-      <change afterPath="$PROJECT_DIR$/src/p5/ApplePhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p5/SamsungPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/p5/XiaomiPhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p5/ApplePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/ApplePhone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p5/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p5/SamsungPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/SamsungPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/p5/XiaomiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/XiaomiPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <workItem from="1695983488184" duration="716000" />
       <workItem from="1695984246987" duration="11088000" />
       <workItem from="1695999143134" duration="2452000" />
-      <workItem from="1696078105135" duration="36825000" />
+      <workItem from="1696078105135" duration="47548000" />
     </task>
     <task id="LOCAL-00001" summary="Cal">
       <created>1695755828785</created>
@@ -127,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696199217779</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Java">
+      <created>1696347276960</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696347276960</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
