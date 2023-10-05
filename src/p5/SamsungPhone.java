@@ -9,5 +9,10 @@ public class SamsungPhone extends Phone{
     @Override
     public void info() {
     }
+
+    @Override
+    public void info(String model) {
+        super.info(model);
+    }
 }
 
