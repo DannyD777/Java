@@ -1,7 +1,7 @@
 package p5;
 
 
-public abstract class Phone {
+public abstract class Phone implements Callable,Informable {
 
 
     private String model;

@@ -9,7 +9,6 @@ public class ApplePhone extends Phone{
 
     @Override
     public void info() {
-        System.out.printf(" Model:  %s \n Number: %d \n Weight: %2f \n", getModel(), getNumber(), getWeight());
     }
 }
 
