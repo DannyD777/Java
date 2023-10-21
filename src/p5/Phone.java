@@ -38,12 +38,8 @@ public abstract class Phone implements Callable,Informable {
         System.out.println("-----------------------------------");
     }
 
-    public void receiveCall(String name) {
-        System.out.printf("Звонит : " + name);
-        System.out.println("\n -----------------------------------");
 
 
-    }
 
     public int getNumber() {
         return number;
@@ -71,6 +67,8 @@ public abstract class Phone implements Callable,Informable {
     }
 
     public abstract void info();
+
+    public abstract  void receiveCall(String name);
 
 
 

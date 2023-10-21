@@ -12,8 +12,8 @@ public class ApplePhone extends Phone{
     }
 
     @Override
-    public void info(String model) {
-        super.info(model);
+    public void receiveCall(String name) {
+        System.out.printf("Calling is %s", name);
     }
 }
 

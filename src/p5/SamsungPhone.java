@@ -1,18 +1,22 @@
 package p5;
 
-public class SamsungPhone extends Phone{
+public  class SamsungPhone extends Phone {
 
-    public SamsungPhone(String model, int number, double weight) {
-        super(model,number,weight);
+
+    public SamsungPhone(String model, int number, double weight){
     }
 
     @Override
     public void info() {
+        System.out.println("Samsung phone: " + getModel() + " " + getNumber() + " " + getWeight());
     }
 
     @Override
-    public void info(String model) {
-        super.info(model);
+    public void receiveCall(String name) {
+        System.out.printf("Calling is %s", name);
     }
+
 }
+
+
 

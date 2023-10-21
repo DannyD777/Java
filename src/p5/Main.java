@@ -7,46 +7,25 @@ public class Main {
 
         Phone SamsungPhone = new SamsungPhone("Samsung A100", 98765433, 189.7);
         SamsungPhone.info();
+        SamsungPhone.receiveCall("Max \n" );
 
         Phone ApplePhone = new ApplePhone("Apple 15", 62786454, 230.7);
         ApplePhone.info();
+        ApplePhone.receiveCall("Dasha \n ");
 
         Phone XiaomiPhone = new XiaomiPhone("Poco", 98765543, 200.7);
         XiaomiPhone.info();
+        XiaomiPhone.receiveCall("lex \n ");
 
 
 
 
 
-        Phone apple = new Phone() {
-            @Override
-            public void info() {
 
-            }
-        };
-        Phone apple1  = new Phone("ApMax", 355433222, 231) {
-            @Override
-            public void info() {
 
-            }
 
-        };
-        Phone apple2  = new Phone("ApPro", 355678898, 189) {
-            @Override
-            public void info() {
 
-            }
 
-        };
-
-        apple2.info();
-        apple1.info();
-        apple.info();
-        apple.getNumber();
-        apple.info();
-        apple.receiveCall("Max");
-        apple1.receiveCall("Dasha");
-        apple2.receiveCall("lex");
 
 
 
