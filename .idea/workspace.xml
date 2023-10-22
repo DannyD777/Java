@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aaef00b8-c50b-4c41-b480-2eb8041ce71b" name="Changes" comment="Java">
+      <change afterPath="$PROJECT_DIR$/src/p6/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p5/ApplePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/ApplePhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p5/Callable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/Callable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/p5/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p5/SamsungPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/SamsungPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/p5/XiaomiPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/p5/XiaomiPhone.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,7 +62,11 @@
       <workItem from="1695999143134" duration="2452000" />
       <workItem from="1696078105135" duration="58237000" />
       <workItem from="1697875966828" duration="7000" />
-      <workItem from="1697883213641" duration="3428000" />
+      <workItem from="1697883213641" duration="15497000" />
+      <workItem from="1697991641513" duration="29000" />
+      <workItem from="1697991697095" duration="17000" />
+      <workItem from="1697991885339" duration="1306000" />
+      <workItem from="1697993237150" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="Cal">
       <created>1695755828785</created>
@@ -159,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696512316349</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Java">
+      <created>1697886969817</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1697886969817</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

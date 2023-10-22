@@ -76,6 +76,7 @@ public abstract class Phone implements Callable,Informable {
 
 
 }
+// ДЗ Lesson11 В main создать массив Phone и заполним его с помощью операции клонирования.
 
 
 
